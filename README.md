@@ -49,7 +49,7 @@
 
 **调整证书和登陆账号密码**  
 
-可以在本地生成目录保存文件，容器内生成文件的目录 <tmpdir>
+可以在本地生成目录保存文件，`<tmpdir>` 是容器内生成文件的目录
 
     $ docker run --rm -v /your/local/folder:<tmpdir> ipmi:v1 htpasswd -c <tmpdir>/nginx.htpasswd
     # 生成 key 文件
